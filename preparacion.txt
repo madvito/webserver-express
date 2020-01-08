@@ -1,0 +1,13 @@
+const http = require('http'); //viene en node, cuando se usa express, no se usa
+
+npm install express --save
+
+
+npm install hbs --save   //libreria motor de vista para handlebars.js , Hace que la pag sea dinamica
+
+
+nodemon server(nombre del archivo js) -e(para que este atento a los sgtes formatos) js,hbs,html,css
+
+
+para que heroku reconozca el archivo que tiene que correr, abrir el package.json y en scripts agregar:
+"start": "node server.js(nombre del archivo)"
